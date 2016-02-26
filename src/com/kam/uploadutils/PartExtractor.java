@@ -9,7 +9,7 @@ import javax.servlet.http.Part;
 
 /**
  *
- * @author Blacksteath
+ * @author KaminaSan <www.kaminasan.com>
  */
 public interface PartExtractor {
     public String saveTitleImageToDisk(Part partToSave, String path);

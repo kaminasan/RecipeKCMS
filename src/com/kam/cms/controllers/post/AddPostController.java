@@ -25,7 +25,7 @@ import javax.servlet.http.Part;
 
 /**
  *
- * @author Blacksteath
+ * @author KaminaSan <www.kaminasan.com>
  */
 @MultipartConfig
 public class AddPostController extends HttpServlet {

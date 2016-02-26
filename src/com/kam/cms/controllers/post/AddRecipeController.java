@@ -30,7 +30,7 @@ import javax.servlet.http.Part;
 
 /**
  *
- * @author Blacksteath
+ * @author KaminaSan <www.kaminasan.com>
  */
 @WebServlet(name = "AddRecipeController", urlPatterns = {"/addrecipe"})
 @MultipartConfig(maxRequestSize = 1024 * 1024 * 15)

@@ -7,7 +7,7 @@ package com.kam.cms.beans;
 
 /**
  *
- * @author Blacksteath
+ * @author KaminaSan <www.kaminasan.com>
  */
 public class RecipeStepBean {
     private int stepId;
