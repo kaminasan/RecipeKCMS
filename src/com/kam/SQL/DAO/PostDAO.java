@@ -525,6 +525,7 @@ public class PostDAO {
              con.setAutoCommit(false);
               deleteStmt = con.prepareStatement(deleteCategoriesSQL);
              stmt = con.prepareStatement(insertCategoriesSQL);
+             deleteStmt.setInt(1, postId);
              deleteStmt.executeUpdate();
              for(String categoryId : catsToInsert){
                  stmt.setInt(1, postId);
