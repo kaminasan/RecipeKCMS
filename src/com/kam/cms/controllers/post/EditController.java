@@ -129,9 +129,10 @@ public class EditController extends HttpServlet {
 
                 case "postCategory[]":
                     String[] recipeCategories = request.getParameterValues("postCategory[]");
+                    updated = dao.updatePostCategories(postId, recipeCategories);
                     System.out.println(Arrays.toString(recipeCategories));
                     System.out.println("We got a call from " + editType + " on BT Server");
-                    respWriter.print("Updated " + editType + " on BT Server");
+                    if(updated)respWriter.print("Updated " + editType + " on BT Server");
                     respWriter.close();
                     break;
 
