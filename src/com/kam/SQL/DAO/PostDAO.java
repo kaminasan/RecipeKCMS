@@ -549,6 +549,7 @@ public class PostDAO {
          return inserted;
           
       }
+         
       public boolean insertPostCategories(String postID, String[] catsToInsert){
           boolean inserted = false;
           if(!ParamValidator.isValidPostId(postID)) return inserted;
