@@ -45,6 +45,7 @@ public class DBUtil {
     if (DBUtil.dataSource != null) {
       try
       {
+          System.out.println("returning a connection now");
         return DBUtil.dataSource.getConnection();
       }
       catch (SQLException ex)
